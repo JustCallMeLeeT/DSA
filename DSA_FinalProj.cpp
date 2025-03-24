@@ -91,7 +91,7 @@ void deleteRequest(Queue* queue) {
  
     while (1) {
         int i = 0;
-        
+        system("cls");
         printf("Select a document to delete (Enter 0 to exit):\n");
         current = queue->front;
         for (i; i < count; i++) {
